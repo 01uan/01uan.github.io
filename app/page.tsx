@@ -74,6 +74,7 @@ export default function Home() {
             <div className="z-20 relative text-center">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Gia Diep</h1>
               <p className="text-xl md:text-2xl text-white/80 italic font-merriweather">Developer and Designer, with a passion for IT</p>
+              <p className="text-s md:text-2s text-white/80 font-merriweather">diep9529@saskpolytech.ca</p>
               <div className="mt-8 h-px w-24 bg-white/30 mx-auto" />
             </div>
           </div>
