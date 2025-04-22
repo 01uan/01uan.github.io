@@ -1,4 +1,6 @@
 let userConfig = undefined
+const repoName = 'portfolio'
+
 try {
   // try to import ESM first
   userConfig = await import('./v0-user-next.config.mjs')
@@ -13,6 +15,9 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
   eslint: {
     ignoreDuringBuilds: true,
   },
