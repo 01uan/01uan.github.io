@@ -1,8 +1,8 @@
 [
     {
-        "title": "My Journey into Web Development",
-        "date": "October 15, 2023",
-        "excerpt": "A brief look at how I started my journey into web development... asdasd asd ",
-        "url": "/html/blog/template.html"
+        "title": "Example Blog!",
+        "date": "May 13, 2025",
+        "excerpt": "hi! writing my example blog",
+        "url": "./blog/template.html"
     }
 ]
