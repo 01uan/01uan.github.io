@@ -14,4 +14,14 @@ function renderFooter() {
         document.body.appendChild(footer);
 }
 
+function renderFavicon() {
+    const favicon = document.createElement("link");
+    favicon.rel = "icon";
+    favicon.type = "image/png"; 
+    favicon.href = "/images/favicon.ico"; 
+    document.head.appendChild(favicon);
+}
+
+
 document.addEventListener('DOMContentLoaded', renderFooter);
+window.addEventListener("DOMContentLoaded", renderFavicon);
