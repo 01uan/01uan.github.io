@@ -1,0 +1,39 @@
+h1#name {
+    margin-bottom: 0; 
+}
+h3#id-info {
+    margin-top: 0;
+}
+
+section#education * {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body {
+    background-color: black; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: #4da6ff; 
+    text-decoration: none;
+}
+
+
+main {
+    flex: 1; 
+}
+
+footer {
+    margin-top: 1em;
+}
+
+footer * {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
